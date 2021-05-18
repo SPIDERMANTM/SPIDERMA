@@ -70,7 +70,7 @@ rm -fr ../.telegram-cli
 done
 ]])
 RunBot:close()
-local RunTs = io.open("BA", 'w')
+local RunTs = io.open("SM", 'w')
 RunTs:write([[
 #!/usr/bin/env bash
 cd $HOME/SPIDERMA
