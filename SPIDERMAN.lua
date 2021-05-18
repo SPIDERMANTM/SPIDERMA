@@ -8124,8 +8124,8 @@ if text == ("تحديث السورس") and DevSPIDERMAN(msg) then
 send(msg.chat_id_,msg.id_,'✫: تم التحديث')
 os.execute('rm -rf SPIDERMAN.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/SPIDERMAN-DeV/SPIDERMAN/main/SPIDERMAN.lua')
-os.execute('wget https://raw.githubusercontent.com/SPIDERMAN-DeV/SPIDERMAN/main/start.lua')
+os.execute('wget https://raw.githubusercontent.com/SPIDERMANTM/SPIDERMA/main/SPIDERMAN.lua')
+os.execute('wget https://raw.githubusercontent.com/SPIDERMANTM/SPIDERMA/main/start.lua')
 dofile('SPIDERMAN.lua')  
 return false
 end
@@ -8704,7 +8704,7 @@ dofile("SPIDERMAN.lua")
 send(msg.chat_id_, msg.id_, "✫: تم التحديث")
 end
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then  
-Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ\n\n[-  ʙᴏʏᴋᴀ ᴄʜᴀɴɴᴇʟ  .](http://t.me/JJJ6UU)\n\n[-  ɪɴғᴏ sᴏᴜʀᴄᴇ .](http://t.me/JJU6UU)\n\n[-  ʙᴏʏᴋᴀ ᴅᴇᴠᴇʟᴏᴘᴇʀ  .](http://t.me/lll_lll4)\n\n[-  ʙᴏᴛ ʙᴏʏᴋᴀ .](http://t.me/VVV3VBOT)"
+Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡\n\n[-  ʙᴏʏᴋᴀ ᴄʜᴀɴɴᴇʟ  .](http://t.me/JJJ6UU)\n\n[-  ɪɴғᴏ sᴏᴜʀᴄᴇ .](http://t.me/JJU6UU)\n\n[-  ʙᴏʏᴋᴀ ᴅᴇᴠᴇʟᴏᴘᴇʀ  .](http://t.me/lll_lll4)\n\n[-  ʙᴏᴛ ʙᴏʏᴋᴀ .](http://t.me/VVV3VBOT)"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '✫: ʙᴏʏᴋᴀ sᴏᴜʀᴄʀ .',url="t.me/JJJ6UU"}},
@@ -8755,7 +8755,7 @@ local Text =[[
 ✫:  4 -› لعرض اوامر المنشئين
 ✫:  5 -› لعرض اوامر المطورين
  — — — — — — — — —
-[- sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ](t.me/JJJ6UU)
+[- 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡](t.me/JJJ6UU)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -10143,7 +10143,7 @@ local Teext =[[
 ✫:الكلايش
 ✫:السيلفي
  — — — — — — — — — 
-[- sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ](t.me/JJJ6UU)
+[- 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡](t.me/JJJ6UU)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -10222,7 +10222,7 @@ local Teext =[[
 ✫:مسح الصلاحيات
 ✫:مسح الرابط
  — — — — — — — — — 
-[- sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ](t.me/JJJ6UU)
+[- 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡](t.me/JJJ6UU)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -10278,7 +10278,7 @@ local Teext =[[
 ✫:تفعيل/تعطيل الايدي بالصوره
 ✫:تفعيل/تعطيل الرابط/جلب الرابط
  — — — — — — — — — 
-[- sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ](t.me/JJJ6UU)
+[- 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡](t.me/JJJ6UU)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -10321,7 +10321,7 @@ local Teext =[[
 ✫:اضف رسائل + العدد بالرد
 ✫:اضف مجوهرات + العدد بالرد
  — — — — — — — — — 
-[- sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ](t.me/JJJ6UU)
+[- 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡](t.me/JJJ6UU)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -10391,7 +10391,7 @@ local Teext =[[
 ✫:رفع/تنزيل منشئ اساسي
 ✫:مسح المنشئين الاساسين
  — — — — — — — — — 
-[- sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ](t.me/JJJ6UU)
+[- 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡](t.me/JJJ6UU)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -10419,7 +10419,7 @@ local Teext =[[
 ✫:  3 -› لعرض اوامر المدراء
 ✫:  4 -› لعرض اوامر المنشئين
 ✫:  5 -› لعرض اوامر المطورين
-[- sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ](t.me/JJJ6UU)
+[- 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡](t.me/JJJ6UU)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -10434,7 +10434,7 @@ local idchci = "-100"..idch
 local animation = DAata:match("^animation(.*)$"):gsub('chatid',''):gsub('chatid',''):gsub(idch,''):gsub('-100','')
 local Text ="✫: تم اللغاء منعها بنجاح"
 inline = {
-{{text = '✫:  - sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ  .',url='http://t.me/JJJ6UU'}},
+{{text = '✫:  - 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡  .',url='http://t.me/JJJ6UU'}},
 }
 https.request("https://api.telegram.org/bot"..token.."/deleteMessage?chat_id="..Chat_id.."&message_id="..msg_idd)
 send_inlin_key(Chat_id,Text,inline)
@@ -10445,7 +10445,7 @@ local idchci = database:get(bot_id.."Filter:msg")
 local photo = DAata:match("^pito(.*)$")
 local Text ="✫: تم اللغاء منعها بنجاح"
 inline = {
-{{text = '✫:  - sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ  .',url='http://t.me/JJJ6UU'}},
+{{text = '✫:  - 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡  .',url='http://t.me/JJJ6UU'}},
 }
 https.request("https://api.telegram.org/bot"..token.."/deleteMessage?chat_id="..Chat_id.."&message_id="..msg_idd)
 send_inlin_key(Chat_id,Text,inline)
@@ -10457,7 +10457,7 @@ local idchci = "-100"..idch
 local Sticker = DAata:match("^Sticker(.*)$"):gsub('chatid',''):gsub('chatid',''):gsub(idch,''):gsub('-100','')
 local Text ="✫: تم اللغاء منعه بنجاح"
 inline = {
-{{text = '✫:  - sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ  .',url='http://t.me/JJJ6UU'}},
+{{text = '✫:  - 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡  .',url='http://t.me/JJJ6UU'}},
 }
 https.request("https://api.telegram.org/bot"..token.."/deleteMessage?chat_id="..Chat_id.."&message_id="..msg_idd)
 send_inlin_key(Chat_id,Text,inline)
@@ -10467,7 +10467,7 @@ if DAata and DAata:match("^delallSticker(.*)$") and Addictive(data) then
 local delallSticker = DAata:match("^delallSticker(.*)$")
 local Text ="✫: تم اللغاء منع كل المتحركات"
 inline = {
-{{text = '✫:  - sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ  .',url='http://t.me/JJJ6UU'}},
+{{text = '✫:  - 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡  .',url='http://t.me/JJJ6UU'}},
 }
 https.request("https://api.telegram.org/bot"..token.."/deleteMessage?chat_id="..Chat_id.."&message_id="..msg_idd)
 send_inlin_key(Chat_id,Text,inline)
@@ -10480,7 +10480,7 @@ if DAata and DAata:match("^delallanimation(.*)$") and Addictive(data) then
 local delallmation = DAata:match("^delallanimation(.*)$")
 local Text ="✫: تم اللغاء منع كل المتحركات"
 inline = {
-{{text = '✫:  - sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ  .',url='http://t.me/JJJ6UU'}},
+{{text = '✫:  - 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡  .',url='http://t.me/JJJ6UU'}},
 }
 https.request("https://api.telegram.org/bot"..token.."/deleteMessage?chat_id="..Chat_id.."&message_id="..msg_idd)
 send_inlin_key(Chat_id,Text,inline)
@@ -10493,7 +10493,7 @@ if DAata and DAata:match("^delallph(.*)$") and Addictive(data) then
 local delallph = DAata:match("^delallph(.*)$")
 local Text ="✫: تم اللغاء منع كل الصور"
 inline = {
-{{text = '✫:  - sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ  .',url='http://t.me/JJJ6UU'}},
+{{text = '✫:  - 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡  .',url='http://t.me/JJJ6UU'}},
 }
 https.request("https://api.telegram.org/bot"..token.."/deleteMessage?chat_id="..Chat_id.."&message_id="..msg_idd)
 send_inlin_key(Chat_id,Text,inline)
