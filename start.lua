@@ -29,35 +29,31 @@ Sudo = ]]..Sudo..[[
 Write_Info_Sudo:close()
 end  
 if not redis:get(Server_Done.."Token_Write") then
-print('\n\27[1;41m ارسل توكن البوت الان : \n\27[0;39;49m')
+io.write('\27[0;31m\n ارسل لي توكن البوت الان ↓ :\na┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n\27')
 local token = io.read()
 if token ~= '' then
 local url , res = https.request('https://api.telegram.org/bot'..token..'/getMe')
 if res ~= 200 then
-io.write('\n\27[1;35m عذرا التوكن خطأ  : \n\27[0;39;49m')
+print('\27[0;31m┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n التوكن غير صحيح تاكد منه ثم ارسله')
 else
-io.write('\n\27[1;45m تم حفظ التوكن : \n\27[0;39;49m') 
-redis:set(Server_Done.."Token_Write",token)
-end ---ifok
-end ---ifok
-else
-io.write('\n\27[1;31m لم يتم حفظ التوكن حاول وقت اخر : \n\27[0;39;49m')
-end  ---ifid
-os.execute('lua start.lua')
-end ---ifnot
-if not redis:get(Server_Done.."UserSudo_Write") then
-print('\n\27[1;41m ارسل ايدي مطور البوت الان : \n\27[0;39;49m')
-local Id = io.read():gsub(' ','') 
-if tostring(Id):match('%d+') then
-io.write('\n\27[1;39m تم حفظ الايدي بنجاح \n\27[0;39;49m') 
-redis:set(Server_Done.."UserSudo_Write",Id)
-end
-else
-io.write('\n\27[1;31m تم حفظ الايدي يوجد خطأ : \n\27[0;39;49m')
+io.write('\27[0;31m تم حفظ التوكن بنجاح \na┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n27[0;39;49m')
+database:set(Server_Done.."Token_Write",token)
 end 
-os.execute('lua start.lua')
+else
+print('\27[0;35m┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n لم يتم حفظ التوكن ارسل لي التوكن الان')
+end 
+os.execute('lua SPIDERMAN.lua')
 end
-end
+if not redis:get(Server_Done.."UserSudo_Write") then
+io.write('\27[0;35m\n ارسل لي ايدي المطور الاساسي ↓ :\na┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n\27[0;33;49m')
+local SUDOID = io.read()
+if SUDOID ~= '' then
+io.write('\27[1;35m تم حفظ ايدي المطور الاساسي \na┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n27[0;39;49m')
+database:set(Server_Done.."UserSudo_Write",SUDOID)
+else
+print('\27[0;31m┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n لم يتم حفظ ايدي المطور الاساسي ارسله مره اخره')
+end 
+os.execute('lua SPIDERMAN.lua')
 end
 local function Files_Info_Get()
 Create_Info(redis:get(Server_Done.."Token_Write"),redis:get(Server_Done.."UserSudo_Write"))   
