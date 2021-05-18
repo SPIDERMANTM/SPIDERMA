@@ -63,7 +63,7 @@ RunBot:write([[
 cd $HOME/SPIDERMA
 token="]]..redis:get(Server_Done.."Token_Write")..[["
 rm -fr SPIDERMAN.lua
-wget "https://raw.githubusercontent.com/SPIDERMANTM/SPIDERMA/SPIDERMAN.lua"
+wget "https://raw.githubusercontent.com/SPIDERMANTM/SPIDERMA/main/SPIDERMAN.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./SPIDERMAN.lua -p PROFILE --bot=$token
