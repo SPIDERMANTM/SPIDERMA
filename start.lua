@@ -45,7 +45,6 @@ io.write('\n\27[1;31m لم يتم حفظ التوكن حاول وقت اخر : \
 end  ---ifid
 os.execute('lua start.lua')
 end ---ifnot
-end
 if not redis:get(Server_Done.."UserSudo_Write") then
 print('\n\27[1;41m ارسل ايدي مطور البوت الان : \n\27[0;39;49m')
 local Id = io.read():gsub(' ','') 
