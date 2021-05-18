@@ -8337,7 +8337,7 @@ if audios.Info == true then
 local Text ='✫: تم اختيار المقطع الصوتي لك'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '- ʙᴏʏᴋᴀ sᴏᴜʀᴄʀ .',url="t.me/JJJ6UU"}},
+{{text = '- 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡 .',url="t.me/JJJ6UU"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice='..URL.escape(audios.info)..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -8704,10 +8704,10 @@ dofile("SPIDERMAN.lua")
 send(msg.chat_id_, msg.id_, "✫: تم التحديث")
 end
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then  
-Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡\n\n[-  ʙᴏʏᴋᴀ ᴄʜᴀɴɴᴇʟ  .](http://t.me/JJJ6UU)\n\n[-  ɪɴғᴏ sᴏᴜʀᴄᴇ .](http://t.me/JJU6UU)\n\n[-  ʙᴏʏᴋᴀ ᴅᴇᴠᴇʟᴏᴘᴇʀ  .](http://t.me/lll_lll4)\n\n[-  ʙᴏᴛ ʙᴏʏᴋᴀ .](http://t.me/VVV3VBOT)"
+Text = "┌────── SM ──────┐\n⋄ ︙𝘸𝘦𝘭𝘤𝘰𝘮𝘦 𝘵𝘰 𝘴𝘰𝘶𝘳𝘤𝘦 S𝙿𝚈𝙳𝙴𝚁\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n⋄︙[S𝙿𝚈𝙳𝙴𝚁 ⁦𝘵𝘦𝘢𝘮](https://t.me/JJU6UU)\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n⋄︙[D𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳](t.me/lll_lll4)\n ┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n⋄︙[B𝘰𝘵 C𝘰𝘯𝘯𝘦𝘤𝘵](t.me/rriebot\n└────── SM──────┘"
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '✫: ʙᴏʏᴋᴀ sᴏᴜʀᴄʀ .',url="t.me/JJJ6UU"}},
+{{text = '✫: 𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝗣𝗜𝗗𝗘𝗥 𝗠𝗔𝗡 .',url="t.me/JJJ6UU"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/JJJ6UU&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
