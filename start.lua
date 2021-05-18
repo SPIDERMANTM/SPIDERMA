@@ -57,7 +57,6 @@ io.write('\n\27[1;31m تم حفظ الايدي يوجد خطأ : \n\27[0;39;49m'
 end  ---ifid
 os.execute('lua start.lua')
 end ---ifnot
-end
 local function Files_Info_Get()
 Create_Info(redis:get(Server_Done.."Token_Write"),redis:get(Server_Done.."UserSudo_Write"))   
 local RunBot = io.open("Run", 'w')
