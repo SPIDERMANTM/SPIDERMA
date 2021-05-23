@@ -2652,7 +2652,7 @@ return false
 end
 if text == ("تاك للمنشئين الاساسين") or text == ("صيح المنشئين الاساسين") then
 local list = database:smembers(bot_id..'Basic:Constructor'..msg.chat_id_)
-t = "\n ✫: وينكم تعالو يريدوكم بكروب \n≪━━━━━━𝘽𝙆━━━━━━≫\n"
+t = "\n ✫: وينكم تعالو يريدوكم بكروب \n≪━━━━━━𝗦𝗡━━━━━━≫\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -2693,7 +2693,7 @@ send(msg.chat_id_, msg.id_, t)
 end
 if text == ("تاك للمنشئين") or text == ("صيح المنشئين") then
 local list = database:smembers(bot_id..'Constructor'..msg.chat_id_)
-t = "\n ✫: وينكم تعالو يريدوكم بكروب \n≪━━━━━━𝘽𝙆━━━━━━≫\n"
+t = "\n ✫: وينكم تعالو يريدوكم بكروب \n≪━━━━━━𝗦𝗡━━━━━━≫\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -2734,7 +2734,7 @@ send(msg.chat_id_, msg.id_, t)
 end
 if text == ("تاك للمدراء") or text == ("صيح المدراء") then
 local list = database:smembers(bot_id..'Manager'..msg.chat_id_)
-t = "\n ✫: وينكم تعالو يريدوكم بكروب \n≪━━━━━━𝘽𝙆━━━━━━≫\n"
+t = "\n ✫: وينكم تعالو يريدوكم بكروب \n≪━━━━━━𝗦𝗡━━━━━━≫\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -2775,7 +2775,7 @@ send(msg.chat_id_, msg.id_, t)
 end
 if text == ("تاك للادمنيه") or text == ("صيح الادمنيه") then
 local list = database:smembers(bot_id..'Mod:User'..msg.chat_id_)
-t = "\n ✫: وينكم تعالو يريدوكم بكروب \n≪━━━━━━𝘽𝙆━━━━━━≫\n"
+t = "\n ✫: وينكم تعالو يريدوكم بكروب \n≪━━━━━━𝗦𝗡━━━━━━≫\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -3125,7 +3125,7 @@ return false
 end
 if text == ("تاك للمالكين") or text == ("صيح المالكين") then
 local list = database:smembers(bot_id..'creator'..msg.chat_id_)
-t = "\n ✫: وينكم تعالو يريدوكم بكروب \n≪━━━━━━𝘽𝙆━━━━━━≫\n"
+t = "\n ✫: وينكم تعالو يريدوكم بكروب \n≪━━━━━━𝗦𝗡━━━━━━≫\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -5873,13 +5873,13 @@ end
                     end
                     local link = database:get(bot_id .. "Private:Group:Link" .. msg.chat_id_)
                     if link then
-                        send(msg.chat_id_, msg.id_, '𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  𖠐\n≪━━━━━━𝘽𝙆━━━━━━≫\n [' .. link .. ']')
+                        send(msg.chat_id_, msg.id_, '𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  𖠐\n≪━━━━━━𝗦𝗡━━━━━━≫\n [' .. link .. ']')
                     else
                         local linkgpp = json:decode(https.request(
                                                         'https://api.telegram.org/bot' .. token ..
                                                             '/exportChatInviteLink?chat_id=' .. msg.chat_id_))
                         if linkgpp.ok == true then
-                            linkgp = '𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  ??\n≪━━━━━━𝘽𝙆━━━━━━≫\n [' .. linkgpp.result .. ']'
+                            linkgp = '𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  ??\n≪━━━━━━𝗦𝗡━━━━━━≫\n [' .. linkgpp.result .. ']'
                         else
                             linkgp = '܂✫: لا يوجد رابط ارسل ضع رابط'
                         end
